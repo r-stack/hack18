@@ -1,3 +1,9 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Attribute, Token, Team
+
+
+
+admin.site.register(Attribute)
+admin.site.register(Token)
+admin.site.register(Team)
